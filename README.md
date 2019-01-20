@@ -11,7 +11,7 @@ The node-red-contrib-unipi-evok requires <a href="https://nodered.org">Node-RED<
 
 ## Install
 
- Use the `Menu - Manage palette` to install the UniPi nodes and search for `node-red-contrib-unipi-evok`, or run the following command in your Node-RED user directory (typically `~/.node-red`):
+ Use the `Menu - Manage palette` to install the UniPi nodes and search for `@unipitechnology/node-red-contrib-unipi-evok`or use the keywords `evok` or `unipi` or run the following command in your Node-RED user directory (typically `~/.node-red`):
 
     npm install @unipitechnology/node-red-contrib-unipi-evok
 

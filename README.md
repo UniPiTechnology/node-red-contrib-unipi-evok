@@ -20,7 +20,7 @@ The node-red-contrib-unipi-evok requires <a href="https://nodered.org">Node-RED<
 #### Basic information
 Once `@unipitechnology/node-red-contrib-unipi-evok` is installed into the Node-RED two nodes are added:
 
-   - **UniPi input** node - primary a filter for the UniPi data (from the websocket). Helps to easily access the needed data and work with them throw the flow/s.
+   - **UniPi input** node - primary a filter for the UniPi data (from the websocket). Helps to easily access the needed data and work with them through the flow/s.
    - **UniPi output** node - helps to see the ***all*** data by the request, ***filter*** the choosen data or to ***set*** the features *relay*, *digital output* and *led* -> to switch ON/OFF or set *analog output* to desired value. 
 #### Preparation
 To connect the UniPi device with the Node-RED the UniPi EVOK utility <a href="https://www.unipi.technology/cs/content/evok-18">EVOK</a> has to be installed on the device.

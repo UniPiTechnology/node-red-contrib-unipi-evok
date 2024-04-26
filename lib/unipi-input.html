@@ -1,6 +1,6 @@
 <script type="text/javascript">
     RED.nodes.registerType('unipi-input', {
-        category: 'UniPi',
+        category: 'Unipi',
         color: '#ffffff',
         defaults: {
             name: { value: "" },
@@ -18,7 +18,7 @@
         outputs: 1,
         icon: "unipi_logo.png",
         label: function () {
-            return this.name || "UniPi Input";
+            return this.name || "Unipi Input";
         },
         
     });
@@ -108,11 +108,11 @@
 </script>
 
 <script type="text/x-red" data-help-name="unipi-input">
-    <p><b>The UniPi input</b> node is the data filter for the Unipi devices.</p>
+    <p><b>The Unipi input</b> node is the data filter for the Unipi devices.</p>
     <h3>Inputs</h3>
     <dl class="message-properties">
         <dt> payload <span class="property-type">string | object</span> </dt>
-        <dd> The original msg from the UniPi device (use WebSocket connection).</dd>
+        <dd> The original msg from the Unipi device (use WebSocket connection).</dd>
     </dl>
     <h3>Outputs</h3>
     <dl class="message-properties">
@@ -120,9 +120,9 @@
         <dd> The filtred data. </dd>
     </dl>
     <h3>Details</h3>
-    <p>The EVOK utility in version 2.0 or higher is required to install in order to connect the UniPi device with the Node-RED. See <a href="https://github.com/UniPiTechnology/evok">UniPi GitHub</a> for more information.</p>
+    <p>The EVOK utility in version 2.0 or higher is required to install in order to connect the Unipi device with the Node-RED. See <a href="https://github.com/UnipiTechnology/evok">Unipi GitHub</a> for more information.</p>
     <p></p>
-    <p>To connect - the Node-RED and the UniPi device - use the websocket node and choose type <i>connect to</i>. The format of the adress: ws://[the adress of the UniPi device]/ws.</p>
+    <p>To connect - the Node-RED and the Unipi device - use the websocket node and choose type <i>connect to</i>. The format of the adress: ws://[the adress of the Unipi device]/ws.</p>
     <p></p>
     <h4><b>Setting the node</b></h4>
     
@@ -133,7 +133,7 @@
             <p></p>
             <li><code>Devices</code> - set the <i>device</i> as the first part of the couple <i>device + circuit</i>.
             <p></p>
-            <li><code>Circuits</code> - the <i>circuit</i> of the device choosen above follows here as the second part of the couple <i>device + circuit</i> (write e.g. <i>1.01</i>, <i>UART 1 1.01</i> etc. or just copy the circuit from <i>UniPi Control Panel</i>).
+            <li><code>Circuits</code> - the <i>circuit</i> of the device choosen above follows here as the second part of the couple <i>device + circuit</i> (write e.g. <i>1.01</i>, <i>UART 1 1.01</i> etc. or just copy the circuit from <i>Unipi Control Panel</i>).
             <p></p>
             <li><code>Property</code> - leave empty to see the whole filtered object in the <code>msg.payload</code> (the relevant <i>device + circuit</i>) or write property (from the filtered object e.g. value). If written property exists then the <code>msg.payload</code> contains this property and the <code>msg.topic</code> contains property's name. 
             <p></p>

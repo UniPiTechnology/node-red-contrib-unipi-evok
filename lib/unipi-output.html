@@ -1,6 +1,6 @@
 <script type="text/javascript">
     RED.nodes.registerType('unipi-output', {
-        category: 'UniPi',
+        category: 'Unipi',
         color: '#ffffff',
         defaults: {
             name: { value: "" },
@@ -21,7 +21,7 @@
         outputs: 1,
         icon: "unipi_logo.png",
         label: function () {
-            return this.name || "UniPi Output";
+            return this.name || "Unipi Output";
         }
     });
 
@@ -220,7 +220,7 @@ function choose() {
     <style type="text/css">
         h2    {color: blue; font-style: italic;}
         </style>
-    <p><b>The UniPi output</b> is the command node for the UniPi device/s.</p>
+    <p><b>The Unipi output</b> is the command node for the Unipi device/s.</p>
     <h3>Inputs</h3>
     <dl class="message-properties">
         <dt> payload <span class="property-type">number | boolean | string</span> </dt>
@@ -229,13 +229,13 @@ function choose() {
     <h3>Outputs</h3>
     <dl class="message-properties">
         <dt> payload <span class="property-type">object</span></dt>
-        <dd> The JSON object - use the WebSocket to send the JSON message to the UniPi device.</dd>
+        <dd> The JSON object - use the WebSocket to send the JSON message to the Unipi device.</dd>
     </dl>
     <h3>Details</h3>
     <p></p>
-    <p>The EVOK utility in version 2.0 or higher is required to install in order to connect the UniPi device with the Node-RED. See <a href="https://github.com/UniPiTechnology/evok">UniPi GitHub</a> for more information.</p>
+    <p>The EVOK utility in version 2.0 or higher is required to install in order to connect the Unipi device with the Node-RED. See <a href="https://github.com/UnipiTechnology/evok">Unipi GitHub</a> for more information.</p>
     <p></p>
-    <p>To connect - the Node-RED and the UniPi device - use the websocket node and choose type <i>connect to</i>. The format of the adress: ws://[the adress of the UniPi device]/ws.</p>
+    <p>To connect - the Node-RED and the Unipi device - use the websocket node and choose type <i>connect to</i>. The format of the adress: ws://[the adress of the Unipi device]/ws.</p>
     <p></p>
     <h4><b>Setting the node</b></h4>
         
@@ -245,9 +245,9 @@ function choose() {
             <li><code>Commmand</code> - has following options:
                 <ul>
                     <p></p>
-                    <li><i style="color:blue"> All</i> - the command is sent by any input message. Returns the message from the UniPi device with all couples <i>device + circuit</i> from the input websocket node.
+                    <li><i style="color:blue"> All</i> - the command is sent by any input message. Returns the message from the Unipi device with all couples <i>device + circuit</i> from the input websocket node.
                     <p></p>
-                    <li><i style="color:blue">Filter</i> - the command is sent by any input message. Once the filter is enabled - the message/s from the UniPi device with filtred <i>device/s</i> will be only recieved from the input websocket node.
+                    <li><i style="color:blue">Filter</i> - the command is sent by any input message. Once the filter is enabled - the message/s from the Unipi device with filtred <i>device/s</i> will be only recieved from the input websocket node.
                         <ul>
                             <li><i>Enable filter</i> - The filter is enabled and the check boxes below are active.
                             <li><i>Disable filter</i> - The filter is disabled and the chech boxes are non active. 
@@ -270,7 +270,7 @@ function choose() {
                                     <li><i>Analog output</i> - has the range <i>0-10</i>. The input message should be in the form: <i>number</i> in the range 0-10, <i>string</i> in the range "0"-"10". (More about the Analog output input is described in the section Special behaviour).
                                     <p></p>
                                 </ul>
-                            <li><code>Circuits</code> - the <i>circuit</i> of the device choosen above follows here as the second part of the couple <i>device + circuit</i> (write e.g. <i>1.01</i>, <i>UART 1 1.01</i> etc. or just copy the circuit from <i>UniPi Control Panel</i>).
+                            <li><code>Circuits</code> - the <i>circuit</i> of the device choosen above follows here as the second part of the couple <i>device + circuit</i> (write e.g. <i>1.01</i>, <i>UART 1 1.01</i> etc. or just copy the circuit from <i>Unipi Control Panel</i>).
                         </ul>
                     <p></p>
                 </ul>
@@ -312,7 +312,7 @@ function choose() {
         <li> Equivalent entries: 2.01 or 2_01; UART 2 2.08 or UART_2_2_08 etc.
     </ul>
     <h4><b>Info</b></h4>
-    <p>The UniPi output node deletes the <code>msg._session</code>.</p>
+    <p>The Unipi output node deletes the <code>msg._session</code>.</p>
 
             
 </script>

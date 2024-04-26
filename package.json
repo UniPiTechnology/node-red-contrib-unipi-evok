@@ -3,13 +3,13 @@
 "name": "JoTio Tech s.r.o."
 },
 "bugs": {
-    "url": "https://github.com/UniPiTechnology/node-red-contrib-unipi-evok/issues"
+    "url": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok/issues"
     },
 "bundleDependencies": false,
 "dependencies": {},
 "deprecated": false,
-"description": "EVOK UniPi in Node-RED",
-"homepage": "https://github.com/UniPiTechnology/node-red-contrib-unipi-evok#readme",
+"description": "EVOK Unipi in Node-RED",
+"homepage": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok#readme",
 "keywords": [
     "unipi",
     "evok",
@@ -24,13 +24,13 @@
     "nodes": {
         "unipi-input": "lib/unipi-input.js",
         "unipi-output": "lib/unipi-output.js",
-        "unipi-input-beta": "lib/unipi-input-beta.js",
-        "unipi-output-beta": "lib/unipi-output-beta.js"
+        "unipi-input-v3": "lib/unipi-input-v3.js",
+        "unipi-output-v3": "lib/unipi-output-v3.js"
     }
 },
 "repository": {
     "type": "git",
-    "url": "git+https://github.com/UniPiTechnology/node-red-contrib-unipi-evok.git"
+    "url": "git+https://github.com/UnipiTechnology/node-red-contrib-unipi-evok.git"
     },
-"version": "0.0.5"
+"version": "0.0.6"
 }

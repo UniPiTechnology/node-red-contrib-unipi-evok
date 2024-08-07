@@ -8,7 +8,7 @@
         "url": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok/issues"
     },
     "deprecated": false,
-    "description": "EVOK Unipi in Node-RED",
+    "description": "Unipi Evok for Node-RED",
     "homepage": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok#readme",
     "keywords": [
         "unipi",

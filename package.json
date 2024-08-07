@@ -1,36 +1,37 @@
 {
-"author": {
-"name": "JoTio Tech s.r.o."
-},
-"bugs": {
-    "url": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok/issues"
+    "author": {
+        "name": "Unipi Technology"
+        "url": "https://www.unipi.technology/"
     },
-"bundleDependencies": false,
-"dependencies": {},
-"deprecated": false,
-"description": "EVOK Unipi in Node-RED",
-"homepage": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok#readme",
-"keywords": [
-    "unipi",
-    "evok",
-    "node-red"
+    "bugs": {
+        "url": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {},
+    "deprecated": false,
+    "description": "Unipi Evok for Node-RED",
+    "homepage": "https://github.com/UnipiTechnology/node-red-contrib-unipi-evok#readme",
+    "keywords": [
+        "unipi",
+        "evok",
+        "node-red"
     ],
-"license": "Apache-2.0",
-"publishConfig": {
-    "access": "public"
-  },
-"name": "@unipitechnology/node-red-contrib-unipi-evok",
-"node-red" : {
-    "nodes": {
-        "unipi-input": "lib/unipi-input.js",
-        "unipi-output": "lib/unipi-output.js",
-        "unipi-input-v3": "lib/unipi-input-v3.js",
-        "unipi-output-v3": "lib/unipi-output-v3.js"
-    }
-},
-"repository": {
-    "type": "git",
-    "url": "git+https://github.com/UnipiTechnology/node-red-contrib-unipi-evok.git"
+    "license": "Apache-2.0",
+    "publishConfig": {
+        "access": "public"
     },
-"version": "0.0.8"
+    "name": "@unipitechnology/node-red-contrib-unipi-evok",
+    "node-red": {
+        "nodes": {
+            "unipi-input": "lib/unipi-input.js",
+            "unipi-output": "lib/unipi-output.js",
+            "unipi-input-v3": "lib/unipi-input-v3.js",
+            "unipi-output-v3": "lib/unipi-output-v3.js"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UnipiTechnology/node-red-contrib-unipi-evok.git"
+    },
+    "version": "0.0.8"
 }
